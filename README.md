@@ -1,50 +1,61 @@
-# SQL Projects Repository  
+# SQL Projects Repository
 
-## 📌 Overview  
-This repository contains SQL queries and projects covering various aspects of data analysis, database management, and optimization. The projects demonstrate skills in querying, data manipulation, and performance tuning using SQL.  
+## 📌 Overview
+Welcome to my SQL Projects repository! This repository contains various SQL projects covering data analysis, database design, and query optimization techniques. Each project includes SQL scripts, datasets, and explanations.
 
-## 🏆 Key Projects  
-
-### 1️⃣ **Basic SQL Queries**  
-- Simple `SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`, `HAVING`, `JOIN` queries  
-- Aggregate functions and subqueries  
-
-### 2️⃣ **Advanced SQL Queries**  
-- Window functions (`RANK()`, `DENSE_RANK()`, `NTILE()`)  
-- Common Table Expressions (CTEs) and Recursive Queries  
-- Pivoting and Unpivoting data  
-
-
-## 📂 Folder Structure  
+## 📂 Project Structure
 ```
-SQL-Projects/
-│── Basic-SQL/
-│   ├── select_queries.sql
-│   ├── joins.sql
-│── Advanced-SQL/
-│   ├── window_functions.sql
-│   ├── ctes_and_recursion.sql
-│── Projects/
-│   ├── hospital_management_analysis.sql
-│   ├── logistic_analysis.sql
-│── Optimization/
-│   ├── indexing.sql
-│   ├── query_tuning.sql
-│── Datasets/
-│   ├── hospital_management_data.csv
-│   ├── shipping_logistic_data.csv
+📦 SQL Projects Repository
+ ┣ 📂 Hospital Management System
+ ┃ ┣ 📜 dataset.sql
+ ┃ ┣ 📜 queries.sql
+ ┃ ┣ 📜 README.md
+ ┣ 📂 Shipments Analysis
+ ┃ ┣ 📜 dataset.sql
+ ┃ ┣ 📜 joins_queries.sql
+ ┃ ┣ 📜 README.md
+ ┣ 📜 README.md
 ```
 
-## 🚀 How to Use  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-usernam/your-repository.git
-   cd your-repository
+## 🚀 Projects Included
+### 1️⃣ **Hospital Management System**
+- **Description:** A relational database system designed to streamline hospital operations, including patient records, doctor details, appointments, treatments, and inventory management.
+- **Dataset Used:** Hospital management database with patient demographics, billing, and staff details.
+- **Key Queries & Insights:**
+  - Patient visit trends based on age, gender, and ailments.
+  - Optimized appointment scheduling using doctor availability data.
+  - Billing and revenue insights for financial planning.
+  - Inventory tracking to manage medication and equipment stock.
+  
+### 2️⃣ **Shipments Analysis**
+- **Description:** A MySQL case study focusing on SQL Joins to analyze logistics data, including shipments and drivers.
+- **Dataset Used:** Logistics database with shipment and driver details.
+- **Key Queries & Insights:**
+  - INNER JOIN to track assigned shipments and drivers.
+  - LEFT JOIN to identify pending and unassigned shipments.
+  - RIGHT JOIN to detect underutilized drivers.
+  - FULL OUTER JOIN for a comprehensive view of shipments and fleet allocation.
+
+## 🛠️ Technologies Used
+- SQL (MySQL, PostgreSQL, SQLite, etc.)
+- Database Management Systems (DBMS)
+- Data Cleaning & Analysis
+- Query Optimization Techniques
+
+## 🔧 Setup & Usage
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/Saimehtre18/Saimehtre18.git
    ```
-2. Load the dataset into your preferred database.  
-3. Execute the SQL scripts to analyze and manipulate the data.  
+2. Open your preferred SQL client.
+3. Import the dataset (`.csv` or `.sql`).
+4. Run the SQL queries provided in the project folders.
 
-## 📬 Contact  
-If you have any suggestions or queries, feel free to reach out:  
-📧 Email: your.email@example.com  
-🔗 LinkedIn: [Sai Mehtre](https://www.linkedin.com/in/saimehtre/)  
+## 🤝 Contribution
+Contributions are welcome! If you'd like to improve or add new projects, feel free to fork this repository and submit a pull request.
+
+## 📬 Contact
+For any queries or discussions, feel free to reach out via GitHub Issues or email me at [mrsolo0318@gmail.com].
+
+---
+⭐ **If you found this repository useful, don't forget to give it a star!** ⭐
